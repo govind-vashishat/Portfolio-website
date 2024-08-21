@@ -55,7 +55,7 @@ const Contact = () => {
   </div> 
 
   <form onSubmit={handleSubmit}> 
-<div className='space-y-10 p-5 lg:p-0'>
+<div className='space-y-10 p-5'>
 <div class="max-w-md mx-auto">
   <div class="mb-5">
 
