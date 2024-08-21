@@ -35,7 +35,7 @@ const Contact = () => {
                                                
     if(form.email && form.message) {
       try {
-        const {data} = await axios.post("http://localhost:8000/api/post", form)
+        const {data} = await axios.post("https://portfolio-website-wn4h.onrender.com/api/post", form)
         console.log(data);
         generateMessage(data.msg)
       } catch (error) {
